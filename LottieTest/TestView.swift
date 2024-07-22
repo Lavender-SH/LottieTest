@@ -25,7 +25,7 @@ class TestView: BaseView {
         button.layer.borderColor = UIColor.black.cgColor
         button.layer.borderWidth = 2
         button.layer.cornerRadius = 150 // 버튼 크기의 절반으로 설정
-        button.clipsToBounds = true
+        button.clipsToBounds = true //트루
         return button
     }()
     
