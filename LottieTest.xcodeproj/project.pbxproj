@@ -10,9 +10,14 @@
 		02C55B762C497546002A2AFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C55B752C497546002A2AFB /* AppDelegate.swift */; };
 		02C55B782C497546002A2AFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C55B772C497546002A2AFB /* SceneDelegate.swift */; };
 		02C55B7A2C497546002A2AFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C55B792C497546002A2AFB /* ViewController.swift */; };
-		02C55B7D2C497546002A2AFB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 02C55B7C2C497546002A2AFB /* Base */; };
 		02C55B7F2C497547002A2AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C55B7E2C497547002A2AFB /* Assets.xcassets */; };
 		02C55B822C497547002A2AFB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 02C55B812C497547002A2AFB /* Base */; };
+		02C55B8B2C4976B5002A2AFB /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 02C55B8A2C4976B5002A2AFB /* Lottie */; };
+		02C55B8D2C497B02002A2AFB /* 12345.json in Resources */ = {isa = PBXBuildFile; fileRef = 02C55B8C2C497B02002A2AFB /* 12345.json */; };
+		02C55B902C497CC3002A2AFB /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 02C55B8F2C497CC3002A2AFB /* SnapKit */; };
+		02C55B942C497D0F002A2AFB /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C55B932C497D0F002A2AFB /* TestView.swift */; };
+		02C55B962C497E2D002A2AFB /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C55B952C497E2D002A2AFB /* BaseView.swift */; };
+		02C55BA62C4D5444002A2AFB /* countdown.json in Resources */ = {isa = PBXBuildFile; fileRef = 02C55BA52C4D5444002A2AFB /* countdown.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +25,13 @@
 		02C55B752C497546002A2AFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02C55B772C497546002A2AFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		02C55B792C497546002A2AFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		02C55B7C2C497546002A2AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02C55B7E2C497547002A2AFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02C55B812C497547002A2AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02C55B832C497547002A2AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C55B8C2C497B02002A2AFB /* 12345.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 12345.json; sourceTree = "<group>"; };
+		02C55B932C497D0F002A2AFB /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		02C55B952C497E2D002A2AFB /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		02C55BA52C4D5444002A2AFB /* countdown.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countdown.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02C55B8B2C4976B5002A2AFB /* Lottie in Frameworks */,
+				02C55B902C497CC3002A2AFB /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +69,10 @@
 				02C55B752C497546002A2AFB /* AppDelegate.swift */,
 				02C55B772C497546002A2AFB /* SceneDelegate.swift */,
 				02C55B792C497546002A2AFB /* ViewController.swift */,
-				02C55B7B2C497546002A2AFB /* Main.storyboard */,
+				02C55B932C497D0F002A2AFB /* TestView.swift */,
+				02C55B952C497E2D002A2AFB /* BaseView.swift */,
+				02C55B8C2C497B02002A2AFB /* 12345.json */,
+				02C55BA52C4D5444002A2AFB /* countdown.json */,
 				02C55B7E2C497547002A2AFB /* Assets.xcassets */,
 				02C55B802C497547002A2AFB /* LaunchScreen.storyboard */,
 				02C55B832C497547002A2AFB /* Info.plist */,
@@ -83,6 +96,10 @@
 			dependencies = (
 			);
 			name = LottieTest;
+			packageProductDependencies = (
+				02C55B8A2C4976B5002A2AFB /* Lottie */,
+				02C55B8F2C497CC3002A2AFB /* SnapKit */,
+			);
 			productName = LottieTest;
 			productReference = 02C55B722C497546002A2AFB /* LottieTest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,10 @@
 				Base,
 			);
 			mainGroup = 02C55B692C497546002A2AFB;
+			packageReferences = (
+				02C55B892C4976B5002A2AFB /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				02C55B8E2C497CC3002A2AFB /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 02C55B732C497546002A2AFB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				02C55B7F2C497547002A2AFB /* Assets.xcassets in Resources */,
+				02C55B8D2C497B02002A2AFB /* 12345.json in Resources */,
 				02C55B822C497547002A2AFB /* Base in Resources */,
-				02C55B7D2C497546002A2AFB /* Base in Resources */,
+				02C55BA62C4D5444002A2AFB /* countdown.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02C55B942C497D0F002A2AFB /* TestView.swift in Sources */,
 				02C55B7A2C497546002A2AFB /* ViewController.swift in Sources */,
+				02C55B962C497E2D002A2AFB /* BaseView.swift in Sources */,
 				02C55B762C497546002A2AFB /* AppDelegate.swift in Sources */,
 				02C55B782C497546002A2AFB /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +171,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		02C55B7B2C497546002A2AFB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				02C55B7C2C497546002A2AFB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		02C55B802C497547002A2AFB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +313,9 @@
 				INFOPLIST_FILE = LottieTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +323,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = lavender.LottieTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,9 +345,9 @@
 				INFOPLIST_FILE = LottieTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +355,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = lavender.LottieTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -363,6 +387,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		02C55B892C4976B5002A2AFB /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+		02C55B8E2C497CC3002A2AFB /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		02C55B8A2C4976B5002A2AFB /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02C55B892C4976B5002A2AFB /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		02C55B8F2C497CC3002A2AFB /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02C55B8E2C497CC3002A2AFB /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 02C55B6A2C497546002A2AFB /* Project object */;
 }
